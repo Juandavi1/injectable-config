@@ -52,10 +52,10 @@ Suponiendo que *NODE_ENV* tiene como valor *__dev__* el objeto configuracion de 
 
 ````json
 {
-    host:"http...",
-    port:"123",
-    shared:"info",
-    any:"value"
+    "host":"http...",
+    "port":"123",
+    "shared":"info",
+    "any":"value"
 }
 ````
 
@@ -112,7 +112,7 @@ export class MainClass {
 
 Eso es todo. ahora un ejemplo completo.
 
-###Ejemplo completo
+####Ejemplo completo
 
 Asumiendo que *NODE_ENV* vale *__st__*
 
@@ -170,6 +170,7 @@ export class AppComponent {
     new ConfigStartUp()
     console.log(this.config) // { url:"host-dev" , port: 8080 }
   }
+  ...
 }
 
 ````
