@@ -112,7 +112,7 @@ export class MainClass {
 
 Eso es todo. ahora un ejemplo completo.
 
-####Ejemplo completo
+*__Ejemplo completo__*
 
 Asumiendo que *NODE_ENV* vale *__st__*
 
