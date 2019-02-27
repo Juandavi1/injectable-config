@@ -175,3 +175,4 @@ export class AppComponent {
 
 ````
 
+https://stackblitz.com/edit/inject-config?file=src%2Fapp%2Fapp.component.ts
