@@ -1,0 +1,38 @@
+{
+  "name": "injectable-config",
+  "version": "1.0.0",
+  "description": "inject configuration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/Juandavi1/injectable-config.git",
+    "type": "git"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "ts",
+    "inversion",
+    "configuration",
+    "annotations",
+    "js",
+    "client",
+    "server",
+    "nodejs",
+    "javascript"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc && gulp"
+  },
+  "author": "juan david correa",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
